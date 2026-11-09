@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local files
+.DS_Store
+.vscode/
+.idea/
+*.log
+*.sqlite
+*.db
+
+# Data (keep only small authorised/synthetic samples)
+data/raw/
+data/private/
+
+# n8n local
+.n8n/
